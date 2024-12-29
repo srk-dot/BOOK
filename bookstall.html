@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Stall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .featured-section, .book-list {
+            margin-bottom: 40px;
+        }
+        .featured-section h2, .book-list h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        .book-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .book-item img {
+            max-width: 100px;
+            margin-right: 20px;
+            border-radius: 4px;
+        }
+        .book-item div {
+            flex: 1;
+        }
+        .book-item h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .book-item p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Book Stall</h1>
+    </header>
+    <nav>
+        <a href="file:///C:/xampp/htdocs/genres.html">Genres</a>
+        <a href="file:///C:/xampp/htdocs/bestsellers.html">Bestsellers</a>
+        <a href="file:///C:/xampp/htdocs/contactus.html">Contact Us</a>
+    </nav>
+    <div class="container">
+        <section class="featured-section" id="genres">
+            <h2>Genres</h2>
+            <p>Explore a wide variety of genres, from Fiction and Non-fiction to Mystery and Sci-fi.</p>
+        </section>
+        <section class="featured-section" id="new-releases">
+            <h2>New Releases</h2>
+            <div class="book-item">
+                <img src="jane.jpg" alt="Book Cover">
+                <div>
+                    <h3>Jane Doe</h3>
+                    <p>Author: Victoria Helen Stone </p>
+                    <p>Publication Date: 2024</p>
+                    <p>Synopsis: A thrilling new adventure you don't want to miss!</p>
+                </div>
+            </div>
+        </section>
+        <section class="book-list" id="bestsellers">
+            <h2>Bestsellers</h2>
+            <div class="book-item">
+                <img src="john.jpg" alt="Book Cover">
+                <div>
+                    <h3>Captain john smith</h3>
+                    <p>Author: John Smith</p>
+                    <p>Customer Reviews: ★★★★☆</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Contact us: email@example.com | Phone: 123-456-7890</p>
+        <p>&copy; 2024 Book Stall</p>
+    </footer>
+</body>
+</html>
